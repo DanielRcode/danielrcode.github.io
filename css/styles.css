@@ -1,0 +1,163 @@
+#navlogo{
+    text-align: center;
+}
+
+main{
+    margin-top: 10px;
+}
+
+
+.title-font{
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 6em;
+}
+
+img{
+    max-width: 100%;
+}
+
+.menu{
+    position: sticky;
+    top: 0;
+}
+
+.orange-c{
+    background-color: #ffad00;
+}
+
+.usericon{
+    width: 50px;
+    border-radius: 50%;
+}
+
+header nav div button {
+    background-color: black;
+    border: 0px;
+}
+
+.blackbg{
+    background-color: black;
+}
+
+.read-more a{
+font-weight: bold;
+color: white;
+text-decoration: none;
+}
+
+.article-text{
+font-family: 'PT Sans Narrow', sans-serif;
+text-align: justify;
+margin-top: 5px;
+}
+
+footer
+{
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    height: 5vh
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.footer-text{
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Nanum Gothic', sans-serif;
+    
+
+}
+
+.read-button{
+text-align: center;
+}
+
+hr{
+    width: 50%;
+}
+
+.main-video{
+    max-width: 100%;
+}
+
+.read-button:hover{
+    transform: scale(1.2);
+}
+
+.dlc-img{
+    margin-top: 20px;
+    max-width: 50vh;
+    max-height: 50vh;
+}
+
+.dlc-img:hover{
+    opacity: 50%;
+}
+
+.gtav-cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gtav-cont figure{
+   position:relative;
+    height: 250px;
+    cursor: pointer;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+.gtav-cont figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 400ms ease-out;
+    will-change: transform;
+}
+.gtav-cont figure .layer{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(190, 106, 9, 0.7);
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+   text-align: center;
+}
+.gtav-cont figure:hover > .layer {
+    opacity: 1;
+    visibility: visible;
+}
+.gtav-cont figure:hover > .layer h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.gtav-cont figure:hover > img{
+    transform: scale(1.3);
+}
+.gtav-cont figure .layer h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 400ms ease-out;
+     margin-top: 30px;
+}
+.gtav-cont figure .layer p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
