@@ -1,0 +1,56 @@
+// Variables // 
+
+$main-color: #ffad00;
+$article-font: 'PT Sans Narrow', sans-serif;
+$title-font: 'Bebas Neue', cursive;
+$footer-text: 'Nanum Gothic', sans-serif;
+$secondary-color: black;
+
+.rdo-image{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+main{
+    section{
+        margin-bottom: 2vh;
+        article{
+
+            img{
+                border-radius: 6px;
+                box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+                margin-bottom: 1vh;
+            }
+
+            h1{
+                font-family: 'Oswald', sans-serif;
+                text-align: center;
+            }
+
+            h2{
+                margin-top: 3vh;
+                font-family: $title-font;
+                text-align: center;
+            }
+
+            h3{
+                font-family: 'Playfair Display', serif; 
+            }
+
+            p{
+
+                font-family: $article-font;
+            }
+
+            span{
+                font-weight: bold;
+            }
+
+            ul{
+                li{
+                    font-family: $article-font;
+                }
+            }
+        }
+    }
+}

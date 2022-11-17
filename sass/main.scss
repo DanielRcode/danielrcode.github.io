@@ -1,0 +1,105 @@
+@use 'partials/gtav';
+@use 'partials/index';
+@use 'partials/rdr2';
+@use 'partials/contact';
+@use 'partials/careers';
+
+// Variables // 
+
+$main-color: #ffad00;
+$article-font: 'PT Sans Narrow', sans-serif;
+$title-font: 'Bebas Neue', cursive;
+$footer-text: 'Nanum Gothic', sans-serif;
+$secondary-color: black;
+
+// MAIN BUTTON //
+
+@mixin orange-button{
+    background-color: $main-color;
+
+// ----- //
+
+}
+
+header{
+    
+    .blackbg{
+        background-color: $secondary-color;
+    }
+    button{
+    background-color: black;
+    border: 0px;
+    }
+
+    .usericon{
+        width: 50px;
+        border-radius: 50%;
+    }
+
+    .orange-c{
+       @include orange-button;
+    }
+
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 6em;
+
+    img{
+        max-width: 100%;
+        
+    }
+
+    main{
+        margin-top: 10vh;
+    
+    .read-button{
+        text-align: center;
+        
+        .read-more{
+            a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+            }
+        }
+    }
+
+
+.title-font{
+    font-family: $title-font;
+}
+
+//Button - transform //
+
+.read-button{
+    text-align: center;
+
+    &:hover{
+        transform: scale(1.2);
+    }
+
+}
+
+.orange-c{
+    @include orange-button;
+}
+
+}
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    height: 5vh;
+
+    a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: $footer-text
+    }
+}
