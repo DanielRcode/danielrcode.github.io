@@ -17,8 +17,6 @@ $secondary-color: black;
 @mixin orange-button{
     background-color: $main-color;
 
-// ----- //
-
 }
 
 header{
@@ -56,7 +54,8 @@ body{
         margin-top: 10vh;
     
     .read-button{
-        text-align: center;
+        text-align: center;}
+        
         
         .read-more{
             a{
@@ -65,7 +64,7 @@ body{
     text-decoration: none;
             }
         }
-    }
+    
 
 
 .title-font{

@@ -136,7 +136,7 @@ main section article ul li {
   padding: 2.5rem;
 }
 #contact-body .form-header img {
-  max-height: 100%;
+  max-width: 70px;
   position: absolute;
   right: 38%;
   top: 8%;
@@ -235,7 +235,7 @@ body main {
 body main .read-button {
   text-align: center;
 }
-body main .read-button .read-more a {
+body main .read-more a {
   font-weight: bold;
   color: white;
   text-decoration: none;
